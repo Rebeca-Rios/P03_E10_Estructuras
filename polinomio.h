@@ -1,12 +1,11 @@
-//ESTE ES EL QUE FUNCIONA
 #ifndef POLINOMIO_H
 #define POLINOMIO_H
 
 #include <stdio.h>
 
 struct polinomio{
-	int terminos; //Guarda cu·ntos tÈrminos tendr· el polinomio
-	float *datos; //Es apuntador porque no sabemos el tamaÒo. Guarda los valores del polinomio
+	int terminos; //Guarda cu√°ntos t√©rminos tendr√° el polinomio
+	float *datos; //Es apuntador porque no sabemos el tama√±o. Guarda los valores del polinomio
 };
 
 typedef struct polinomio POLI;
