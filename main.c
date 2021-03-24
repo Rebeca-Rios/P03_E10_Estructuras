@@ -1,10 +1,9 @@
-//ESTE ES EL QUE FUNCIONA
 #include "polinomio.h"
 #include <stdlib.h>
 #include <locale.h>
 
 int main(){
-	setlocale(LC_CTYPE, ""); //Para incluir car·cteres especiales
+	setlocale(LC_CTYPE, ""); //Para incluir car√°cteres especiales
 	
 	printf("\n\tEJERCICIO 2\n");
 	
